@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+:root{
+    --cor0: #1F4E8C;
+    --cor1: #586F8C;
+    --cor2: #296CA6;
+    --cor3: #D0D5D9;
+    --cor4: #73551F;
+
+}
+
+.text-shadow {
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.678);
+}
+
+.text-color-bold {
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+.margem_top_personalizada {
+    margin-top: 25vh;
+}
+
+.transparencia_personalizado {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.sombra:hover {
+    box-shadow: 0px 3px 10px 4px rgba(0, 0, 0, 0.685); 
+    cursor: pointer;   
+}
+
+.link_personalizado:hover {
+    text-decoration: none;
+}
+
+.alert-personalizado{
+    color: var(--cor4);
+}
+
+body{
+    background-image: linear-gradient(to top, var(--cor0), var(--cor3));
+    color: var(--cor4);
+}
+
+a {
+    color: var(--cor3);
+}
+
+a:hover {
+    color: var(--cor1);
+    text-decoration: underline;
+}
+
+
+#banner-tela-grande {
+    background: white url('../img/placa-mae-tela-grande.webp') center center / cover no-repeat fixed;
+    height: 60vh;
+    font-size: 20pt;
+}
+
